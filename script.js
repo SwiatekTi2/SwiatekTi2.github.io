@@ -100,7 +100,7 @@ function zakup() {
         sessionStorage.setItem('portfel', portfel)
         odswiezenieKonta()
     } else {
-        alert("Nie masz wystarczająco kasy!")
+        alert("Nie masz wystarczająco pieniędzy!")
     }
 }
 
