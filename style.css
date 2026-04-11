@@ -2,78 +2,144 @@
     --glowny: #7aaaff;
     --akcent: #1799ec;
     --dodatkowy: #eaf2ff;
+    --dodatkowy2: #3f4b5f;
+    
     font-size: 18px;
 }
 
 body {
     font-family:'Trebuchet MS', Arial, sans-serif;
+    background-color: #ffffff;
+
     margin: 0px;
+
     display: flex;
     flex-direction: column;
+
     height: 100vh;
     width: 100%;
-    background-color: #ffffff;
+    
+    h1 {
+        font-size: 36px;
+    }
 }
 
 header {
     height: 100px;
+
     background-color: var(--glowny);
+
     color: white;
+
     padding: 1.5rem;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 #wyszukiwarka {
-    margin-right: 5%;
     padding: 0.8rem;
+    padding-left: 45px;
+
     width: 75%;
+
+    border-style: none;
+    border-radius: 5px;
+
+    background-image: url(./search.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 #profil {
     align-items: center;
 
+    margin-left: 40px;
+    
     img#pfp {
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
+    }
+
+    button#generator-kasy {
+        cursor: pointer;
+
+        background-color: var(--akcent);
+        color: white;
+
+        border: none;
+        border-radius: 5px;
+
+        padding: 5px 10px;
     }
 }
 
 #aplikacja {
     height: 100%;
+
     display: grid;
     grid-template-columns: 10% 1fr 20%;
     gap: 0px;
+
     padding: 0px;
     margin: 0;
+
     overflow-y: hidden;
     
 }
 
 #produkty {
     height: 100%;
+
+    padding: 10px;
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    overflow-y:scroll;
+
+    overflow-y: scroll;
 
     .produkt {
         background-color: var(--dodatkowy);
+        text-align: center;
+
         margin: 10px;
         padding: 75px;
-        box-shadow: 2px 2px 5px #000000;
-        text-align: center;
+
+        box-shadow: 0px 2px 5px var(--dodatkowy2);
+
+        border-radius: 10px;
+    }
+
+    .produkt:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 4px 10px var(--dodatkowy2);
     }
 }
 
 #koszyk {
     background-color: var(--dodatkowy);
+
     padding: 20px;
+
     height: 100%;
 
     #zawartosc-koszyka {
         display: grid;
         grid-template-columns: 50% 50%;
     }
+}
+
+button#reset {
+    cursor: pointer;
+
+    background-color: var(--akcent);
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 5px 10px;
 }
