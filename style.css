@@ -110,6 +110,12 @@ header {
         transform: scale(1.05);
         box-shadow: 0px 4px 10px var(--dodatkowy2);
     }
+
+    .produkt:nth-last-of-type(3),
+    .produkt:nth-last-of-type(2),
+    .produkt:nth-last-of-type(1) {
+        margin-bottom: 40px;
+    }
 }
 
 #filtry {
