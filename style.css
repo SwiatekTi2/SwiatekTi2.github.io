@@ -1,0 +1,79 @@
+:root {
+    --glowny: #7aaaff;
+    --akcent: #1799ec;
+    --dodatkowy: #eaf2ff;
+    font-size: 18px;
+}
+
+body {
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+header {
+    height: 100px;
+    background-color: var(--glowny);
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wyszukiwarka {
+    margin-right: 5%;
+    padding: 0.8rem;
+    width: 75%;
+}
+
+#profil {
+    align-items: center;
+
+    img#pfp {
+    width: 5rem;
+    height: 5rem;
+    }
+}
+
+#aplikacja {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 1fr 20%;
+    gap: 0px;
+    padding: 0px;
+    margin: 0;
+    overflow-y: hidden;
+    
+}
+
+#produkty {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    overflow-y:scroll;
+
+    .produkt {
+        background-color: var(--dodatkowy);
+        margin: 10px;
+        padding: 75px;
+        box-shadow: 2px 2px 5px #000000;
+        text-align: center;
+    }
+}
+
+#koszyk {
+    background-color: var(--dodatkowy);
+    padding: 20px;
+    height: 100%;
+
+    #zawartosc-koszyka {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
