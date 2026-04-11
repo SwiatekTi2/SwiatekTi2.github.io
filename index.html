@@ -12,58 +12,34 @@
         <h1>Koszyk sklepowy</h1>
         <input type="text" id="wyszukiwarka" placeholder="Wyszukaj produkt...">
         <div id="profil">
-            <img src="./pfp.jpg" alt="Zdjęcie profilowe" id="pfp">
+            <img src="./img/pfp.jpg" alt="Zdjęcie profilowe" id="pfp">
             <div class="finanse">
-                <span id="portfel">0</span>zł
+                <span id="portfel">0</span>zł <br>
                 <button id="generator-kasy">+100zł</button>
             </div>
         </div>
     </header>
     <div id="aplikacja">
-        <aside class="filtry">
+        <aside id="filtry">
             <h3>Kategoria</h3>
             <label>
-                <input type="checkbox" class="filtr" value="">
+                <input type="checkbox" class="filtr" value="odzież">Odzież<img src="./img/odziez.png">
                 <br>
             </label>
             <label>
-                <input type="checkbox" class="filtr" value="">
+                <input type="checkbox" class="filtr" value="kubek">Kubek<img src="./img/kubek.png">
                 <br>
             </label>
             <label>
-                <input type="checkbox" class="filtr" value="">
+                <input type="checkbox" class="filtr" value="bizuteria">Biżuteria<img src="./img/bizuteria.png">
                 <br>
             </label>
             <label>
-                <input type="checkbox" class="filtr" value="">
+                <input type="checkbox" class="filtr" value="plyta">Płyta<img src="./img/plyta.png">
                 <br>
             </label>
         </aside>
         <main id="produkty">
-            <p class="produkt">1</p>
-            <p class="produkt">2</p>
-            <p class="produkt">3</p>
-            <p class="produkt">4</p>
-            <p class="produkt">5</p>
-            <p class="produkt">6</p>
-            <p class="produkt">7</p>
-            <p class="produkt">8</p>
-            <p class="produkt">9</p>
-            <p class="produkt">10</p>
-            <p class="produkt">11</p>
-            <p class="produkt">12</p>
-            <p class="produkt">13</p>
-            <p class="produkt">14</p>
-            <p class="produkt">15</p>
-            <p class="produkt">16</p>
-            <p class="produkt">17</p>
-            <p class="produkt">18</p>
-            <p class="produkt">19</p>
-            <p class="produkt">20</p>
-            <p class="produkt">21</p>
-            <p class="produkt">22</p>
-            <p class="produkt">23</p>
-            <p class="produkt">24</p>
         </main>
         <aside id="koszyk">
             <h3>Twój koszyk</h3>
@@ -74,6 +50,7 @@
                 Cena: <span id="cena">0.00</span>zł
             </p>
             <button id="reset">Wyczyść koszyk</button>
+            <button id="kup">Zakup</button>
         </aside>
     </div>
 </body>

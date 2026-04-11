@@ -3,7 +3,7 @@
     --akcent: #1799ec;
     --dodatkowy: #eaf2ff;
     --dodatkowy2: #3f4b5f;
-    
+
     font-size: 18px;
 }
 
@@ -41,14 +41,15 @@ header {
 #wyszukiwarka {
     padding: 0.8rem;
     padding-left: 45px;
+    margin: 0px 40px 0px 5px;
 
     width: 75%;
 
     border-style: none;
     border-radius: 5px;
 
-    background-image: url(./search.png);
-    background-size:contain;
+    background-image: url(./img/search.png);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -56,23 +57,11 @@ header {
 #profil {
     align-items: center;
 
-    margin-left: 40px;
+    justify-content: flex-end;
     
     img#pfp {
     width: 80px;
     height: 80px;
-    }
-
-    button#generator-kasy {
-        cursor: pointer;
-
-        background-color: var(--akcent);
-        color: white;
-
-        border: none;
-        border-radius: 5px;
-
-        padding: 5px 10px;
     }
 }
 
@@ -119,6 +108,19 @@ header {
     }
 }
 
+#filtry {
+    padding: 10px;
+
+    height: 100%;
+
+    label {
+        font-size: 1.2vw;
+        img {
+            width: 25px;
+        }
+    }
+}
+
 #koszyk {
     background-color: var(--dodatkowy);
 
@@ -132,7 +134,7 @@ header {
     }
 }
 
-button#reset {
+button {
     cursor: pointer;
 
     background-color: var(--akcent);
