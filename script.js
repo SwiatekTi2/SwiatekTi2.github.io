@@ -94,7 +94,7 @@ function zakup() {
     }
     if (portfel >= suma) {
         portfel -= suma
-        alert(`Zakupiono produkty za ${suma}zł!`)
+        alert(`Zakupiono produkty za ${suma.toFixed(2)}zł!`)
         koszyk = []
         localStorage.setItem('koszyk', JSON.stringify(koszyk))
         sessionStorage.setItem('portfel', portfel)
