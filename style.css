@@ -56,13 +56,15 @@ header {
 }
 
 #profil {
-    align-items: center;
-
-    justify-content: flex-end;
-    
     img#pfp {
-    width: 80px;
-    height: 80px;
+        width: 80px;
+        height: 80px;
+        
+        border-radius: 2px;
+    }
+
+    .finanse > button {
+        margin-left: 10px;
     }
 }
 
@@ -127,6 +129,10 @@ header {
     }
 }
 
+#filtry > label:hover {
+    font-weight: bold;
+}
+
 #koszyk {
     background-color: var(--dodatkowy);
 
@@ -147,4 +153,8 @@ button {
     border-radius: 5px;
 
     padding: 5px 10px;
+}
+
+button:hover {
+    background-color: var(--glowny);
 }
