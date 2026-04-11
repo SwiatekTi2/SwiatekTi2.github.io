@@ -127,11 +127,6 @@ header {
     padding: 20px;
 
     height: 100%;
-
-    #zawartosc-koszyka {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
 }
 
 button {
