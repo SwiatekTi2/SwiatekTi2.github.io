@@ -85,17 +85,21 @@ header {
     padding: 10px;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
 
     overflow-y: scroll;
+
+    * img {
+        width: 300px;
+    }
 
     .produkt {
         background-color: var(--dodatkowy);
         text-align: center;
 
         margin: 10px;
-        padding: 75px;
+        padding: 10px;
 
         box-shadow: 0px 2px 5px var(--dodatkowy2);
 
