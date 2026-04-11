@@ -14,15 +14,19 @@ class Produkt {
 const LISTA_PRODUKTOW = [
     new Produkt(1, 'Koszulka The Black Parade', 'odziez', 100),
     new Produkt(2, 'Przypinka Hatsune Miku', 'bizuteria', 19.99),
-    new Produkt(3, 'Koszulka NeX GEn', 'odziez', 99.99),
-    new Produkt(4, 'Płyta NeX GEn', 'plyta', 90),
-    new Produkt(5, 'Koszulka Survival Horror', 'odziez', 100),
-    new Produkt(6, `Płyta That's The Spirit`,'plyta', 70),
-    new Produkt(7, 'Przypinka My Chemical Romance', 'bizuteria', 10),
-    new Produkt(8, 'Płyta Tsunami Sea', 'plyta', 95.50),
-    new Produkt(9, 'Płyta Three Cheers for Sweet Revenge', 'plyta', 100),
-    new Produkt(10, 'Bluza Hatsune Miku', 'odziez', 149.99),
-    new Produkt(11, 'Płyta The Black Parade', 'plyta', 65.85),
+    new Produkt(3, 'Płyta Persona 3 Reload MEGAMIX', 'plyta', 203.05),
+    new Produkt(4, 'Koszulka NeX GEn', 'odziez', 99.99),
+    new Produkt(5, 'Płyta NeX GEn', 'plyta', 90),
+    new Produkt(6, 'Koszulka Survival Horror', 'odziez', 100),
+    new Produkt(7, `Płyta That's The Spirit`,'plyta', 70),
+    new Produkt(8, `Bluza HUNTRIX`,'odziez', 119.99),
+    new Produkt(9, 'Przypinka My Chemical Romance', 'bizuteria', 10),
+    new Produkt(10, 'Płyta Tsunami Sea', 'plyta', 95.50),
+    new Produkt(11, 'Kubek Hatsune Miku', 'kubek', 25.01),
+    new Produkt(12, 'Płyta Three Cheers for Sweet Revenge', 'plyta', 100),
+    new Produkt(13, 'Bluza Hatsune Miku', 'odziez', 149.99),
+    new Produkt(14, 'Płyta The Black Parade', 'plyta', 65.85),
+    new Produkt(15, 'Płyta Niepowstrzymany', 'plyta', 200),
 ]
 
 let koszyk = JSON.parse(localStorage.getItem('koszyk')) || []
