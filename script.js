@@ -21,7 +21,7 @@ const LISTA_PRODUKTOW = [
     new Produkt(7, `Płyta That's The Spirit`,'plyta', 70),
     new Produkt(8, `Bluza HUNTRIX`,'odziez', 119.99),
     new Produkt(9, 'Przypinka My Chemical Romance', 'dodatki', 10),
-    new Produkt(10, 'Płyta Tsunami Sea', 'plyta', 95.50),
+    new Produkt(10, 'Płyta Tsunami Sea', 'plyta', 95.55),
     new Produkt(11, 'Kubek Hatsune Miku', 'kubek', 25.01),
     new Produkt(12, 'Płyta Three Cheers for Sweet Revenge', 'plyta', 100),
     new Produkt(13, 'Bluza Hatsune Miku', 'odziez', 149.99),
