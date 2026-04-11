@@ -13,14 +13,14 @@ class Produkt {
 
 const LISTA_PRODUKTOW = [
     new Produkt(1, 'Koszulka The Black Parade', 'odziez', 100),
-    new Produkt(2, 'Przypinka Hatsune Miku', 'bizuteria', 19.99),
+    new Produkt(2, 'Przypinka Hatsune Miku', 'dodatki', 19.99),
     new Produkt(3, 'Płyta Persona 3 Reload MEGAMIX', 'plyta', 203.05),
     new Produkt(4, 'Koszulka NeX GEn', 'odziez', 99.99),
     new Produkt(5, 'Płyta NeX GEn', 'plyta', 90),
     new Produkt(6, 'Koszulka Survival Horror', 'odziez', 100),
     new Produkt(7, `Płyta That's The Spirit`,'plyta', 70),
     new Produkt(8, `Bluza HUNTRIX`,'odziez', 119.99),
-    new Produkt(9, 'Przypinka My Chemical Romance', 'bizuteria', 10),
+    new Produkt(9, 'Przypinka My Chemical Romance', 'dodatki', 10),
     new Produkt(10, 'Płyta Tsunami Sea', 'plyta', 95.50),
     new Produkt(11, 'Kubek Hatsune Miku', 'kubek', 25.01),
     new Produkt(12, 'Płyta Three Cheers for Sweet Revenge', 'plyta', 100),
