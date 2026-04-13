@@ -158,3 +158,40 @@ button {
 button:hover {
     background-color: var(--glowny);
 }
+
+@media screen and (max-width: 600px) {
+    #produkty {
+        height: 100%;
+
+        padding: 10px;
+
+        display: grid;
+        grid-template-columns: 1fr;
+
+        overflow-y: scroll;
+
+        * img {
+            width: 150px;
+        }
+    }
+
+    #koszyk {
+        background-color: var(--dodatkowy);
+
+        padding: 10px;
+
+        height: calc(100% - 20px);
+
+        overflow-y: scroll;
+    }
+
+    #filtry {
+        font-size: 8px;
+    }
+
+    #koszyk {
+        h3 {
+            font-size: 15px;
+        }
+    }
+}
