@@ -1,5 +1,6 @@
 :root {
     --glowny: #7aaaff;
+    --glowny2: #5090ff;
     --akcent: #1799ec;
     --dodatkowy: #eaf2ff;
     --dodatkowy2: #3f4b5f;
@@ -156,7 +157,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--glowny);
+    background-color: var(--glowny2);
 }
 
 @media screen and (max-width: 800px) {
@@ -172,6 +173,11 @@ button:hover {
 
         * img {
             width: 150px;
+        }
+
+        .produkt:hover {
+            transform: none;
+            box-shadow: none;
         }
     }
 
@@ -207,5 +213,9 @@ button:hover {
     .produkt {
         margin: 5px;
         padding: 5px;
+    }
+
+    #koszyk button {
+        margin-bottom: 10px;
     }
 }
