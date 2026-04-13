@@ -159,11 +159,11 @@ button:hover {
     background-color: var(--glowny);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     #produkty {
         height: 100%;
 
-        padding: 10px;
+        padding: 0px;
 
         display: grid;
         grid-template-columns: 1fr;
@@ -193,5 +193,19 @@ button:hover {
         h3 {
             font-size: 15px;
         }
+    }
+
+    #aplikacja {
+        height: 100%;
+
+        display: grid;
+        grid-template-columns: 10% 1fr 30%;
+
+        overflow-y: hidden;
+    }
+
+    .produkt {
+        margin: 5px;
+        padding: 5px;
     }
 }
