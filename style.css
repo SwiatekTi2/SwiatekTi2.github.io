@@ -177,7 +177,7 @@ button:hover {
 
         .produkt:hover {
             transform: none;
-            box-shadow: none;
+            box-shadow: 0px 2px 5px var(--dodatkowy2);
         }
     }
 
